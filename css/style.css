@@ -1,0 +1,50 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	background:#F9F7F7;
+}
+.image-padding{
+	padding: 350px!important;
+}
+.btn-position{
+	padding-bottom: 200px!important;
+}
+.border-deco{
+	border-style: none!important;
+}
+
+}
+.caption{
+	padding-bottom: 290px!important;
+}
+.right{
+	padding-bottom: 83.5px!important;
+}
+
+.left{
+	padding-bottom: 63px!important;
+}
+
+.image{
+	padding-bottom: 195px!important;
+}
+
+.end{
+	padding-bottom: 46px!important;
+}
+
+input::placeholder{
+	color: gray!important;
+}
+
+
+.border-light{
+	text-decoration: none!important;
+	border-style: none!important;
+}
