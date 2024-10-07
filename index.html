@@ -35,8 +35,8 @@
 					<p>Some representative placeholder content for the first slide</p>
 				</div>
 				<div class="carousel-caption caption2 btn-position">
-					<button class="bg-danger text-white py-2 px-4 border-deco">Readmore</button>
-					<button class="bg-white py-2 px-5 text-danger border border-danger">Order</button>
+					<button class="btn btn-danger">Readmore</button>
+					<button class="bg-white btn btn-outline-danger">Order</button>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -53,16 +53,11 @@
 	<section id="newFood">
 		<div class="container-fluid p-0">
 			<div class="row g-0">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div>
-						<div>
-							<img src="images/pics1.jpg" class="img-fluid img1">
-						</div>
-					</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="background: url(images/pics1.jpg) no-repeat center/cover;">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-danger">
-					<div class="right px-5">
-						<div class="text-white text-center px-5 text-padding">
+					<div class="right py-5">
+						<div class="text-white text-center px-5 py-5 text-padding">
 							<h2>New Food Arrivals</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -81,8 +76,8 @@
 		<div class="container-fluid p-0">
 			<div class="row g-0">
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-success">
-					<div class="left px-5">
-						<div class="px-5 text-white text-center text-padding">
+					<div class="left py-5">
+						<div class="px-5 py-5 text-white text-center text-padding">
 							<h2>Nutritious Foods</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -94,25 +89,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div>
-						<div>
-							<img src="images/pics3.jpg" class="img-fluid img1">
-						</div>
-					</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="background: url(images/pics3.jpg) no-repeat center/cover;">
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="menu">
 		<div class="container-fluid p-0">
-			<div class="bg-body-secondary p-5">
-				<div class="d-flex justify-content-between mx-5 pb-0">
-					<h5 class="m1">New Arrival</h5>
-					<a href="#" class="text-danger pe-4 m2">View All</a>
-				</div>
-				<div class="row align-items-center m-row">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+			<div class="bg-body-secondary py-2 px-5">
+				<div class="row align-items-center m-row gy-5">
+					<div class="d-flex justify-content-between">
+						<h5>New Arrival</h5>
+						<a href="#" class="text-danger pe-2">View All</a>
+				    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 						<div>
 							<div class="position-relative">
 								<div>
@@ -140,7 +130,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 						<div>
 							<div class="position-relative">
 								<div>
@@ -213,24 +203,24 @@
 							<h2>Place your order immediately</h2>
 						</div>
 						<form class="p-5">
-							<div>
-								<label for="username">Name</label>
+							<div class="mb-3">
+								<label for="username" class="form-label">Name</label>
 								<input type="text" id="username"name="username" placeholder="Your Name" class="form-control bg-transparent">
 							</div>
-							<div>
-								<label for="email">Email</label>
+							<div class="mb-3">
+								<label for="email" class="form-label">Email</label>
 								<input type="email" id="email"name="email" placeholder="Your Email" class="form-control bg-transparent">
 							</div>
-							<div>
-								<label for="location">Location</label>
-								<select class="form-select bg-transparent text-secondary" aria-label="Default select example">
-									<option selected>Oshodi</option>
-									<option value="1">Ikeja</option>
-									<option value="2">Ketu</option>
-									<option value="3">Magodo</option>
+							<div class="mb-3">
+								<label for="location" class="form-label">Location</label>
+								<select class="form-select bg-transparent text-white" aria-label="Default select example">
+									<option class="text-secondary" selected>Oshodi</option>
+									<option class="text-secondary" value="1">Ikeja</option>
+									<option class="text-secondary" value="2">Ketu</option>
+									<option class="text-secondary" value="3">Magodo</option>
 								</select>
 							</div>
-							<div>
+							<div class="mb-3">
 								<label for="formtextarea" class="form-label">Example Textarea</label>
 								<textarea id="formtextarea" class="form-control bg-transparent"rows="3"></textarea>
 							</div>

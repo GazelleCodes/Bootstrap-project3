@@ -49,12 +49,13 @@ h2{
 }
 
 .m-row{
-	margin: 80px!important;
+	margin: 70px!important;
 
 }
 
+
 .image-padding2{
-	padding: 325px!important;
+	padding: 360px!important;
 }
 
 .image{
@@ -66,7 +67,7 @@ h2{
 }
 
 input::placeholder{
-	color: gray!important;
+	color:#fff!important;
 }
 
 
