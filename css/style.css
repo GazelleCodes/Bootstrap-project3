@@ -9,6 +9,10 @@
 body{
 	background:#F9F7F7;
 }
+
+h2{
+	font-family: "Oleo Script", system-ui!important;
+}
 .image-padding{
 	padding: 350px!important;
 }
@@ -19,16 +23,38 @@ body{
 	border-style: none!important;
 }
 
+.caption1{
+	position: absolute!important;
+	top: 250px;
 }
-.caption{
-	padding-bottom: 290px!important;
+
+.caption1 h2{
+	font-size: 50px!important;
 }
+
+.caption1 p{
+	font-size: 22px!important;
+}
+
+.caption2{
+	padding-bottom: 260px!important;
+}
+
 .right{
-	padding-bottom: 83.5px!important;
+	padding-top:120px!important;
 }
 
 .left{
-	padding-bottom: 63px!important;
+	padding-top:120px!important;
+}
+
+.m-row{
+	margin: 80px!important;
+
+}
+
+.image-padding2{
+	padding: 325px!important;
 }
 
 .image{
