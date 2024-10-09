@@ -14,17 +14,13 @@ h2{
 
 
 
-.btn-position{
-	padding-bottom: 200px!important;
-}
-
 .caption1{
 	position: absolute!important;
-	top: 250px;
+	top: 200px;
 }
 
 .caption1 h2{
-	font-size: 50px!important;
+	font-size: 40px!important;
 }
 
 .caption1 p{
@@ -32,7 +28,7 @@ h2{
 }
 
 .caption2{
-	padding-bottom: 260px!important;
+	padding-bottom: 220px!important;
 }
 
 
