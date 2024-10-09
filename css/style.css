@@ -1,26 +1,21 @@
 
 
-*{
-	margin: 0;
-	padding: 0;
-	
-}
 
-body{
-	background:#F9F7F7;
-}
 
 h2{
 	font-family: "Oleo Script", system-ui!important;
 }
-.image-padding{
-	padding: 350px!important;
+
+
+.overlay{
+	background-color: rgba(0,0,0,0.5)!important;
+	padding: 350px 0px;
 }
+
+
+
 .btn-position{
 	padding-bottom: 200px!important;
-}
-.border-deco{
-	border-style: none!important;
 }
 
 .caption1{
@@ -40,13 +35,7 @@ h2{
 	padding-bottom: 260px!important;
 }
 
-.right{
-	padding-top:120px!important;
-}
 
-.left{
-	padding-top:120px!important;
-}
 
 .m-row{
 	margin: 70px!important;
@@ -58,125 +47,14 @@ h2{
 	padding: 360px!important;
 }
 
-.image{
-	padding-bottom: 195px!important;
-}
-
-.end{
-	padding-bottom: 46px!important;
-}
 
 input::placeholder{
 	color:#fff!important;
 }
 
 
-.border-light{
-	text-decoration: none!important;
-	border-style: none!important;
-}
-
-
-
-
-@media only screen and (max-width: 600px){
-
-.list{
-  display: none;
-}
-
-.logo{
-	margin-left: 5px!important;
-}
-
-
-#navBtn{
-	background:black;
-	color: #fff;
-	font-size: 20px;
-	padding: 3px 15px;
-	border-radius: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 15px;
-	right: 5px;
-	cursor: pointer;
-	display: block;
-
-}
-
-
-.caption1{
-	position: absolute!important;
-	top: 200px;
-	display: block;
-}
-
-.caption1 h2{
-	font-size: 30px!important;
-	display: block;
-}
-
-.caption1 p{
-	font-size: 18px!important;
-	display: block;
-}
-
-.caption2{
-	padding-bottom: 180px!important;
-	display: block;
-}
-
-.image-padding{
-	padding: 300px!important;
-	display: block;
-}
-
-.img1{
-	display: none!important;
-}
-
-.m-row{
-	margin: 40px!important;
-	display: block;
-
-}
-
-.m1{
-	padding-left: 15px!important;
-	display: block;
-}
-
-
-.m2{
-	padding-right: 5px!important;
-	display: block;
-}
-
-.text-padding{
-	padding-bottom: 70px!important;
-	display: block;
-}
-
-
-}
-
-
-@media only screen and (min-width:992px) {
-
-.list{
-  display: block;
-}
-
-#navBtn{
-	display: none;
-
-}
 
 
 
 
 
-}
