@@ -7,6 +7,10 @@ h2{
 }
 
 
+.navBtn{
+	margin-left: 420px!important;
+}
+
 .overlay{
 	background-color: rgba(0,0,0,0.5)!important;
 	padding: 350px 0px;
